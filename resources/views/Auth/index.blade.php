@@ -1,7 +1,6 @@
 @extends('layout.auth')
 
 @section('content')
-<body>
     <div class="container-fluid">
         <div class="d-flex justify-content-center align-items-center min-vh-100 bg-light">
             <div class="card shadow-sm p-4" style="max-width: 400px; width: 100%; max-height: auto; height: 100%; border-radius: 15px;">
@@ -36,5 +35,4 @@
             </div>
         </div>
     </div>
-</body>
 @endsection

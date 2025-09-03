@@ -6,7 +6,7 @@
             <div class="bg-body-secondary rounded-4 p-4">
                 @if ($reservations->isEmpty())
                     <h1 class="align-text-center text-center my-5">
-                        No open reservations yet.
+                        No Registered Guest yet.
                     </h1>
                 @else
                     <h4 class="mb-4 fw-semibold text-center">Guest User List</h4>

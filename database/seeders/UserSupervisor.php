@@ -29,7 +29,7 @@ class UserSupervisor extends Seeder
             'email' => 'admin@resturant.com',
             'name' => 'admin',
             'role' => 'admin',
-            'password' => bcrypt('adminadmin123')    
+            'password' => bcrypt('admin123')    
         ]);
 
         Schema::enableForeignKeyConstraints();

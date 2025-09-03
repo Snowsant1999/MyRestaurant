@@ -75,11 +75,11 @@ class AuthController extends Controller
             else
             {
                 Auth::logout();
-                return back();
+                return back()->withErrors('Provided data does not match our record');
             }
         }
         else {
-            return back();
+            return back()->withErrors('Provided data does not match our record');
         }
     }
 
@@ -104,11 +104,11 @@ class AuthController extends Controller
                 return redirect()->route('adminDashboard');
             } else {
                 Auth::logout();
-                return back();
+                return back()->withErrors("User doesn't have permission here");
             }
         }
         else {
-            return back();
+            return back()->withErrors("User doesn't have permission here");;
         }
     }
 
