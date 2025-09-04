@@ -48,3 +48,14 @@ php artisan serve
 ```
 
 Visit http://localhost:8000 in your browser to access the application.
+
+## Notes
+Pre-defined user data
+Supervisor :
+* Name: Supervisor
+* Password: Supervisor123
+
+admin :
+* Name: admin
+* Password: admin123
+
