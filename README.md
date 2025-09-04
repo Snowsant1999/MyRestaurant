@@ -21,20 +21,20 @@ npm install
 cp .env.example .env
 
 
-Then edit the .env file with your database credentials and app settings.
+  Then edit the .env file with your database credentials and app settings.
 
-4. Generate the Application Key
-\n php artisan key:generate
+4. Generate the Application Key\
+php artisan key:generate
 
-5. Run Migrations
-\n php artisan migrate
+5. Run Migrations\
+php artisan migrate
 
-6. Seed Default Roles and Test Data
-\n php artisan db:seed
+6. Seed Default Roles and Test Data\
+php artisan db:seed\
 This will create default roles and pre-defined Supervisor and Admin accounts (since they don't need to register manually).
 
-7. Start the Development Server
-\n php artisan serve
+7. Start the Development Server\
+php artisan serve
 
 
 Visit http://localhost:8000 in your browser to access the application.
