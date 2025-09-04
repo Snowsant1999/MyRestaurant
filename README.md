@@ -12,25 +12,30 @@ Role-based access control: Guest, Supervisor, Admin
 1. Clone the Repository
 git clone https://github.com/Snowsant1999/MyRestaurant.git
 cd MyRestaurant
-<br>
+
 2. Install PHP & JS Dependencies
 composer install
 npm install && npm run dev
-<br>
-3. Set Up Environment File
+
+3. Set Up the Environment File
 cp .env.example .env
-Update your .env file with database and app settings.
-<br>
-4. Generate Application Key
+
+
+Then edit the .env file with your database credentials and app settings.
+
+4. Generate the Application Key
 php artisan key:generate
-<br>
+
 5. Run Migrations
 php artisan migrate
-<br>
+
 6. Seed Default Roles and Test Data
 php artisan db:seed
-This is for the supervisor and admin account. Because both of them dont have to register a new account.
+This will create default roles and pre-defined Supervisor and Admin accounts (since they don't need to register manually).
 
 7. Start the Development Server
 php artisan serve
-Visit http://localhost:8000 to access the application.
+
+
+Visit http://localhost:8000
+ in your browser to access the application.
