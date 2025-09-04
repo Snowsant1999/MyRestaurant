@@ -10,12 +10,12 @@ Role-based access control: Guest, Supervisor, Admin
 
 ## Installation
 1. Clone the Repository
-git clone https://github.com/Snowsant1999/MyRestaurant.git\
-cd MyRestaurant\
+git clone https://github.com/Snowsant1999/MyRestaurant.git \
+cd MyRestaurant
 
 3. Install PHP & JS Dependencies\
 composer install\
-npm install && npm run dev
+npm install
 
 5. Set Up the Environment File\
 cp .env.example .env
